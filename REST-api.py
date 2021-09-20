@@ -1,7 +1,11 @@
 from typing import Optional
-
 from fastapi import FastAPI
 from pydantic import BaseModel
+
+
+from Database import test #Only import the function directly into current namespace
+# test() #prints "Hello"
+# print (myvar)     #Exception (NameError)
 
 class Item(BaseModel):
     name: str
