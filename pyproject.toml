@@ -8,6 +8,7 @@ authors = ["Dathan Johnson <dathanljohnson135@gmail.com>"]
 python = "^3.9"
 fastapi = "^0.68.1"
 uvicorn = {extras = ["standard"], version = "^0.15.0"}
+SQLAlchemy = "^1.4.29"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

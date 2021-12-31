@@ -20,6 +20,9 @@ app = FastAPI()
 #PUT/ PATCH
 #DELETE
 
+#run server with uvicorn main:app --reload
+
+
 @app.get("/")
 def read_root():
     return {"Hello": "World"}

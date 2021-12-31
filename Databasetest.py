@@ -9,6 +9,7 @@ def PostDatabase(str, key):
     Dict[str] = key #add to database
 
 def getDatabase(key):
+    
     return Dict.get(key)
 
 def PutDatabse():
